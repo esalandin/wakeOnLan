@@ -7,7 +7,7 @@ import java.net.UnknownHostException;
 
 // https://it.wikipedia.org/wiki/Wake_on_LAN
 
-public class wakeOnLan {
+public class WakeOnLan {
   	static final String defaultHost="esalandin.ddns.net";
   	static final long iMacEmanueleMACAddr= 0x406c8f1c7378L;
 
