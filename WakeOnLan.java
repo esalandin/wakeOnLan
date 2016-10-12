@@ -10,9 +10,9 @@ import java.net.UnknownHostException;
 public class WakeOnLan {
   	static final String defaultHost="esalandin.ddns.net";
   	static final long iMacEmanueleMACAddr= 0x406c8f1c7378L;
+  	static final int port = 9;
 
 	public static void main(String[] args) {
-		final int port= 9;
 		String hostName= args.length>0? args[0]: defaultHost;
 		byte[] sendBuf = new byte[6+6*16];
 		for (int i=0; i<6; ++i)
